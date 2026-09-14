@@ -1210,4 +1210,8 @@ button {
         gap: 15px;
     }
 }
-
+/* Make the left image slightly smaller */
+.achievement-item:first-child img {
+    width: 88%;
+    margin: 0 auto;
+}
