@@ -1115,3 +1115,24 @@ button {
     }
 
 }
+/* your existing CSS */
+
+
+/* =========================
+   STORE, WAREHOUSE & FACILITIES
+========================= */
+
+.photo-section {
+    width: 100%;
+    background: #f7f3ec;
+    padding: 70px 5%;
+    box-sizing: border-box;
+}
+
+.photo-section img {
+    display: block;
+    width: 100%;
+    max-width: 1500px;
+    height: auto;
+    margin: 0 auto;
+}
