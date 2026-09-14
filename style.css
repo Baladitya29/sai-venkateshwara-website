@@ -1176,17 +1176,26 @@ button {
     margin: 0 auto;
 }
 
+/* Equal-size boxes */
 .achievement-item {
     width: 100%;
-    overflow: hidden;
-    border-radius: 12px;
+    height: 520px;
     background: #f7f3ec;
+    border-radius: 12px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Complete image visible - NO CROPPING */
 .achievement-item img {
-    display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    object-position: center;
 }
 
 /* Mobile */
@@ -1209,9 +1218,8 @@ button {
         grid-template-columns: 1fr;
         gap: 15px;
     }
-}
-/* Make the left image slightly smaller */
-.achievement-item:first-child img {
-    width: 88%;
-    margin: 0 auto;
+
+    .achievement-item {
+        height: 450px;
+    }
 }
