@@ -1137,8 +1137,6 @@ button {
     margin: 0 auto;
 }
 
-
-
 /* =========================
    ACHIEVEMENTS
 ========================= */
@@ -1178,22 +1176,17 @@ button {
     margin: 0 auto;
 }
 
-/* Equal-size image boxes */
 .achievement-item {
     width: 100%;
-    height: 520px;
     overflow: hidden;
     border-radius: 12px;
     background: #f7f3ec;
 }
 
-/* Show the COMPLETE image without cropping */
 .achievement-item img {
-    width: 100%;
-    height: 100%;
     display: block;
-    object-fit: contain;
-    background: #f7f3ec;
+    width: 100%;
+    height: auto;
 }
 
 /* Mobile */
@@ -1216,8 +1209,5 @@ button {
         grid-template-columns: 1fr;
         gap: 15px;
     }
-
-    .achievement-item {
-        height: 400px;
-    }
 }
+
