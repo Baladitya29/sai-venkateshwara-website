@@ -1125,14 +1125,86 @@ button {
 .photo-section {
     width: 100%;
     background: #f7f3ec;
-    padding: 70px 5%;
+    padding: 50px 1%;
     box-sizing: border-box;
 }
 
 .photo-section img {
     display: block;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1800px;
     height: auto;
     margin: 0 auto;
+}
+
+/* =========================
+   ACHIEVEMENTS
+========================= */
+
+.achievement-section {
+    background: #f7f3ec;
+    padding: 80px 5%;
+}
+
+.achievement-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.achievement-heading span {
+    display: block;
+    color: #b87532;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 12px;
+}
+
+.achievement-heading h2 {
+    margin: 0;
+    color: #171614;
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.achievement-item {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.achievement-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .achievement-section {
+        padding: 60px 20px;
+    }
+
+    .achievement-heading h2 {
+        font-size: 30px;
+    }
+
+    .achievement-heading span {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+
+    .achievement-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
 }
