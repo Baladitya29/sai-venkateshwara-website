@@ -1260,3 +1260,23 @@ button {
         object-fit: contain;
     }
 }
+/* FIX - BOTTOM CTA GET DIRECTIONS */
+.cta .btn-direction {
+    background: #c6a15b !important;
+    color: #171614 !important;
+    border: 1px solid #c6a15b !important;
+}
+
+.cta .btn-direction i {
+    color: #171614 !important;
+}
+
+.cta .btn-direction:hover {
+    background: #dfc27e !important;
+    color: #171614 !important;
+    border-color: #dfc27e !important;
+}
+
+.cta .btn-direction:hover i {
+    color: #171614 !important;
+}
