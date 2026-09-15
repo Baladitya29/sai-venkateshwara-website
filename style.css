@@ -745,6 +745,22 @@ button {
 .btn-whatsapp:hover {
     background: #171614;
 }
+/* GET DIRECTIONS - CTA BUTTON */
+.cta-buttons .btn:nth-child(3) {
+    background: var(--gold);
+    color: var(--charcoal);
+    border: 1px solid var(--gold);
+}
+
+.cta-buttons .btn:nth-child(3) i {
+    color: var(--charcoal);
+}
+
+.cta-buttons .btn:nth-child(3):hover {
+    background: var(--gold-light);
+    border-color: var(--gold-light);
+    color: var(--charcoal);
+}
 
 
 /* ================= CONTACT ================= */
